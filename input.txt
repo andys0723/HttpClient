@@ -1,0 +1,230 @@
+<router-api client_id="2notify" version="2.0" customer_id="1" >
+        <request pr_id="0" >
+                <send_message priority="bulk" >
+                        <channel type="sms"/>
+                        <carrier_message carrier="default">
+                                <message_content>
+                                        <reply_to>40558</reply_to>
+                                        <subject></subject>
+                                        <body>QA CommPro 500k 1215 1500 nltest 500k</body>
+                                </message_content>
+                                <modifications>
+                                        <shorten type="split"/>
+                                        <globalization us_only="true"/>
+                                        <ttl>
+                                                <date specifier="absolute" format="yyyy-MM-dd hh:mm:ss.SSS a">2016-12-16 06:08:04.317 PM</date>
+                                        </ttl>
+                                </modifications>
+                                <client_data>
+                                        <context_id></context_id>
+                                        <reporting_key1>425311896</reporting_key1>
+                                        <reporting_key2>GW-855 500K 1500</reporting_key2>
+                                </client_data>
+                        </carrier_message>
+                        <recipient_list>
+                                <recipient client_recip_id="12498d97-e270-44f0-a360-ae689805bcf0" a2w_recip_id="1a7d45ef-68ab-4949-b537-da955b4f87f9">12145640236</recipient>
+                                <recipient client_recip_id="04d97f3f-246c-4905-8721-b5fe37b5144d" a2w_recip_id="338d935f-d49e-4f59-b06f-c1ede521dcaf">12145460946</recipient>
+                                <recipient client_recip_id="5741438e-f0bd-411a-a2e5-c1f9f965173b" a2w_recip_id="6528d760-b751-43da-86b3-26e8c74093ab">12145374570</recipient>
+                                <recipient client_recip_id="fc7c9b6f-618d-424e-830f-b754656fbc3a" a2w_recip_id="c62ac29b-b158-4d92-9711-3c4f461596f8">12109005450</recipient>
+                                <recipient client_recip_id="a7d5c914-ba15-4063-bde3-b21bb94514a9" a2w_recip_id="750ec041-ca20-492c-9b6c-f7a91899de4f">12146013346</recipient>
+                                <recipient client_recip_id="e8a6c41f-e0ff-45c3-b42d-1dc11552ba83" a2w_recip_id="a20ae784-8100-4e05-b82e-3480ca6f823e">12145353675</recipient>
+                                <recipient client_recip_id="23d75192-6cc7-4d48-9f2f-900663069c3c" a2w_recip_id="ba76b3fc-0b9a-4aba-a9fe-d24aafc7c09e">12143648254</recipient>
+                                <recipient client_recip_id="6ed6d031-9f9c-4d38-814b-dcdd84f29137" a2w_recip_id="fb9db267-71cc-4d4f-ba5b-8996b647cac1">12146697431</recipient>
+                                <recipient client_recip_id="eed9b2d8-9696-438a-b8b5-41066dd501d0" a2w_recip_id="2dc4cc20-2d97-4991-86c0-0b77db3d3130">12146625520</recipient>
+                                <recipient client_recip_id="1eec4e8d-de83-4723-bb9b-f65c3277b545" a2w_recip_id="9c891da0-381a-406f-9226-99ec5ced54b9">12142894115</recipient>
+                                <recipient client_recip_id="a206edef-033c-49aa-8457-1f1ae2c605c8" a2w_recip_id="0d31e8ed-58e4-4379-92ce-e06869434895">12144783514</recipient>
+                                <recipient client_recip_id="7ecd7196-fa00-4863-9989-c2562e69824a" a2w_recip_id="c5eb9f47-3aac-4a1d-93c0-bff006c60662">12143995262</recipient>
+                                <recipient client_recip_id="bcc43126-18e3-4481-bd29-ff292081c03c" a2w_recip_id="d06bbe21-84c1-4f65-a0ff-78c1245eb550">12135685160</recipient>
+                                <recipient client_recip_id="8488c8fe-a5c8-44d6-9338-ad97875df233" a2w_recip_id="0b3305fd-3643-45f2-89b2-954c58eb6c52">12142086903</recipient>
+                                <recipient client_recip_id="0685103f-671a-415a-a74d-7d5661b9a7ce" a2w_recip_id="17ba8c63-0724-4945-abb2-a1c4fc0f7324">12146036648</recipient>
+                                <recipient client_recip_id="caa7df89-e8af-4a9c-b8c2-70fa12736989" a2w_recip_id="e8526298-c3b4-4930-9a91-11bf63cbc3e0">12145540493</recipient>
+                                <recipient client_recip_id="4a4ed37e-c71b-4428-b240-1570fd4b0dba" a2w_recip_id="96af6c92-efbe-45c7-a46c-b36c0a6e95ae">12127291708</recipient>
+                                <recipient client_recip_id="0fc8b699-6692-41a4-93b4-cd6d476b69e5" a2w_recip_id="a8ef0fb9-ee62-4511-b2e6-7df8913c4a2d">12108235918</recipient>
+                                <recipient client_recip_id="e45a39a2-2e8b-4552-b2f9-014bdc49bac2" a2w_recip_id="e48cfa63-5bc9-48f1-a156-16b0fe6f2e95">12146051482</recipient>
+                                <recipient client_recip_id="3f98de50-9dd4-47c4-ac60-33fcb3bb0e78" a2w_recip_id="0efdcaf3-7d09-4e2a-b048-cc3ad3cb4b99">12144049098</recipient>
+                                <recipient client_recip_id="cd71d7e5-5622-4178-bd03-ddc4d76a5756" a2w_recip_id="381aa6d3-872a-41b3-a703-a1171dd13852">12108545869</recipient>
+                                <recipient client_recip_id="6dccac05-302e-4122-b276-1d0300b0e926" a2w_recip_id="f5aa37d4-345d-499b-90d3-4a31d72519bc">12108330969</recipient>
+                                <recipient client_recip_id="2df96bcc-b66e-4a41-9368-d32f1378ae50" a2w_recip_id="8748a647-0d0e-482c-b7b1-f80280558b49">12143844274</recipient>
+                                <recipient client_recip_id="74d357e8-b1dd-4dc9-a0b7-f9a59004b818" a2w_recip_id="2939380a-255e-4cbb-8e0e-fa295291980f">12108753730</recipient>
+                                <recipient client_recip_id="48124b3f-39ae-4ae0-889c-6088e7f8e56a" a2w_recip_id="9ae331e1-4fee-4d51-9a23-9e53046f4ad6">12144710636</recipient>
+                                <recipient client_recip_id="f791d273-3d9f-48c0-b7d0-1a8547315f78" a2w_recip_id="e4ba7240-9f51-4040-9863-d5db6ea5226d">12108635925</recipient>
+                                <recipient client_recip_id="34bc4436-8c20-43bd-b81c-5b839982a566" a2w_recip_id="81c5dc33-c0cd-45c7-b671-2e517613a348">12108598888</recipient>
+                                <recipient client_recip_id="59827302-5ee3-4c08-ae0f-c83a0e38a056" a2w_recip_id="82c19bf9-0611-4a58-aa47-fd467ce30cc5">12133932276</recipient>
+                                <recipient client_recip_id="d941426f-54e6-4fa5-9dcd-0bb6e03b0fcb" a2w_recip_id="ba56fd80-faaf-4d8a-abbc-0c14c89e08bb">12145867432</recipient>
+                                <recipient client_recip_id="1041b983-1f84-4f3e-927c-0f76ce5debf6" a2w_recip_id="1ca93f63-3148-486a-8c18-f7ec4691c98b">12142740974</recipient>
+                                <recipient client_recip_id="d803986f-bf0a-4698-8123-fa568d12956a" a2w_recip_id="e597413b-bcad-48f4-956d-e7673546d6bc">12108332203</recipient>
+                                <recipient client_recip_id="5d72e399-80de-4014-847a-2797154c3937" a2w_recip_id="3b65c6a0-d1c5-475a-853b-f2e51f6ead1e">12145586988</recipient>
+                                <recipient client_recip_id="b253f326-eba0-4460-a1a2-a0d62457b452" a2w_recip_id="f1c4cdaf-7e50-47dc-81b5-38d96a343677">12144577715</recipient>
+                                <recipient client_recip_id="9cda85fd-8486-4151-bd83-b3f4886c0977" a2w_recip_id="0333cdc4-cc4c-4956-82ca-c147a7aedcce">12145786770</recipient>
+                                <recipient client_recip_id="54ddb10d-44e6-40ef-a625-712d7012d737" a2w_recip_id="1b25c1ee-637b-4a3a-9fee-add438e1a2cd">12132004673</recipient>
+                                <recipient client_recip_id="bf6fe8e2-f841-4c8c-81a6-5c8299655acc" a2w_recip_id="9b9126a9-db62-427f-adae-94a5fd2dbfd8">12108376060</recipient>
+                                <recipient client_recip_id="1f1fc1b2-eaad-440d-86d1-5b7415b1b63f" a2w_recip_id="c758fbeb-c20f-4f25-b1fc-c7333b5eb0dc">12143356696</recipient>
+                                <recipient client_recip_id="9d8d9b39-d535-45cb-a4b1-b78b33405892" a2w_recip_id="dac7715d-2428-4fd9-afc9-ae59398afd91">12108633416</recipient>
+                                <recipient client_recip_id="aad1356d-d9b4-4e92-b199-656e32f01e96" a2w_recip_id="28499de3-091a-41e1-924a-412b7dc403fa">12144057826</recipient>
+                                <recipient client_recip_id="39454e91-e8d0-44c3-ba4b-82ac15813536" a2w_recip_id="9879193d-f6c4-401e-a922-6c88349cd50c">12109314621</recipient>
+                                <recipient client_recip_id="daf3ff1b-3f31-4261-bb3f-2162f1abd31f" a2w_recip_id="7b259e95-8551-4336-9d2f-c023fe003ffd">12108608365</recipient>
+                                <recipient client_recip_id="38d890fc-7d8d-4032-bfe9-d11a60b54738" a2w_recip_id="477fdf6c-7b76-49b8-b542-031a27770283">12146749648</recipient>
+                                <recipient client_recip_id="87d71a1c-608a-4171-9548-fdce50a1fc9d" a2w_recip_id="3830fc42-59f3-4578-807e-47b446f3dbea">12146326372</recipient>
+                                <recipient client_recip_id="cc3a820e-c862-4d5f-8c0b-99f098007cb8" a2w_recip_id="5198916a-5a6d-40f9-8ca0-cd6b4b38f530">12133210827</recipient>
+                                <recipient client_recip_id="1b4164b1-9c15-4ebc-8962-2b01cf7a8420" a2w_recip_id="58759e7c-35d5-40cd-b3c6-30f2b14a337d">12132810064</recipient>
+                                <recipient client_recip_id="dda374ad-1795-490b-9c5e-e22b5b6103e9" a2w_recip_id="9fa5fb22-cb74-4a6c-a5ed-ed9f81ea3cc9">12109138904</recipient>
+                                <recipient client_recip_id="1921de2e-7320-4d8e-818f-a53a7cdc0f14" a2w_recip_id="aab8bbde-0486-434d-89dd-14a612baac36">12144705454</recipient>
+                                <recipient client_recip_id="d8e2f0d0-3d25-46dd-939b-8827b240edb3" a2w_recip_id="e79c8b32-897c-41f4-ba7f-784531ce2dcd">12144175820</recipient>
+                                <recipient client_recip_id="594d2c9a-337b-480e-b001-14bedd8b5ead" a2w_recip_id="16797956-f8f9-4a92-a452-39c1aac7ea78">12144547629</recipient>
+                                <recipient client_recip_id="3c5f2f3b-884e-4e78-b42e-94089c5464dc" a2w_recip_id="1d2e2369-677f-4fa3-abc0-3bf5e7342113">12132684071</recipient>
+                                <recipient client_recip_id="258f92ff-ce19-44bb-8372-d665f56b4bd1" a2w_recip_id="1ce9a13f-626c-4608-878b-4c72263a4f9a">12108421592</recipient>
+                                <recipient client_recip_id="1e39bd88-7edd-489e-8fc0-50de27968219" a2w_recip_id="b061f44a-5be1-4380-9458-dcdcad2b15bd">12107711481</recipient>
+                                <recipient client_recip_id="f9491763-1336-4f0d-8cee-9dc58f63331d" a2w_recip_id="4de07e9c-78a2-4a80-b4bd-764184339aec">12145437074</recipient>
+                                <recipient client_recip_id="0ce2363b-6c94-4c1b-9c48-638d3986b76d" a2w_recip_id="afb14834-cde3-4a10-9aec-8ce0e1d42189">12108720783</recipient>
+                                <recipient client_recip_id="ab5ca402-973d-4096-bff4-5828cff56012" a2w_recip_id="ffe35cd1-d9c0-4932-8660-3ad7cfac6a2c">12108850578</recipient>
+                                <recipient client_recip_id="d49519d1-15eb-4639-97f4-41faf22b4fe4" a2w_recip_id="7b80e221-cf73-4e97-a131-9b7dfd60456e">12108633555</recipient>
+                                <recipient client_recip_id="f8305964-86c6-401b-b8a9-d470844ee90e" a2w_recip_id="84735f40-0ffb-4b95-93c7-ddfea3a0dc77">12145022817</recipient>
+                                <recipient client_recip_id="8edbd2aa-6745-4a02-afe8-3be785513b0e" a2w_recip_id="cae78e4a-b2da-4922-9054-594328e777c9">12142055844</recipient>
+                                <recipient client_recip_id="504218d8-c963-4ee9-b774-52f0ccfd6754" a2w_recip_id="02e8a61b-1241-444e-bba1-cbbd58f916dd">12108537124</recipient>
+                                <recipient client_recip_id="5dc35846-5f75-45c4-9558-520781b04b43" a2w_recip_id="70382bb2-8220-4e99-9e1d-ac84df576857">12145140604</recipient>
+                                <recipient client_recip_id="6cad1593-0008-48cf-af84-b9fa0f8c16f4" a2w_recip_id="2d255192-6877-4f73-a975-60d06d2c1eba">12145492034</recipient>
+                                <recipient client_recip_id="88a24765-b67e-4196-acdb-824b6f5768a6" a2w_recip_id="f222cb4e-8a70-4058-ae9e-82fb90b721dd">12138640541</recipient>
+                                <recipient client_recip_id="a0c2c3b0-c51f-4107-90fc-de14d5213ab3" a2w_recip_id="d6cc0cb7-9c76-4323-b817-64605e0ef2f1">12142990412</recipient>
+                                <recipient client_recip_id="02c4720a-9880-4e2e-a6d7-448a09f47d68" a2w_recip_id="57c682ac-ae6e-4a18-94c2-9dcc109872c9">12134404851</recipient>
+                                <recipient client_recip_id="9536703b-9eaf-4833-b2b7-b71476b54a7b" a2w_recip_id="34dc7bcc-f649-44c2-9e68-f8e1b73b6854">12142185687</recipient>
+                                <recipient client_recip_id="612a9d25-6994-48a2-820f-d1bc8d3e8434" a2w_recip_id="7a6a2b35-60a3-48ce-8b28-18b71fbec7a9">12142269444</recipient>
+                                <recipient client_recip_id="9411cda5-1011-49ff-8cc8-62d6a56892f4" a2w_recip_id="f2593ac8-6a46-4707-b3b0-c1ff5639c056">12107769093</recipient>
+                                <recipient client_recip_id="7b412f0b-4e12-4f96-97b1-f64ecba51df9" a2w_recip_id="5403af1b-9e6a-46f1-a47e-0b50a68ebe0c">12142072160</recipient>
+                                <recipient client_recip_id="5ec32839-3f17-49e7-963f-15163ad95e04" a2w_recip_id="f2c3aca0-e6a0-44d0-957b-d6018cbf6450">12139096478</recipient>
+                                <recipient client_recip_id="6887e391-9f22-4b5b-8cac-6a578af4e9f1" a2w_recip_id="2c8c4dce-3cb2-4ed1-ba97-b11bac6d2744">12107930899</recipient>
+                                <recipient client_recip_id="35a3699d-c949-47ad-85c8-fa5170473762" a2w_recip_id="cd00be15-edb7-42fe-8d06-80a71ebd4434">12142744218</recipient>
+                                <recipient client_recip_id="0c4a5d6c-f1f0-4f19-87b0-7323417bc4c8" a2w_recip_id="0a02ad4c-fbc6-4cf0-8353-117d84a9ec78">12145870288</recipient>
+                                <recipient client_recip_id="535e3be7-6205-43d7-8670-cadf7c18c526" a2w_recip_id="b82ff6ff-fc28-44a9-baa7-7fa7b13af4c4">12145171110</recipient>
+                                <recipient client_recip_id="46d6b986-6b7c-4cfa-9e73-e52a89bd5539" a2w_recip_id="9f93bbd8-9014-4d8d-af5e-b5db2d4408b7">12143646707</recipient>
+                                <recipient client_recip_id="74e4f1a4-d894-43e2-a134-8412e6c0501e" a2w_recip_id="87c1f139-92bd-4325-9b8d-a0d637a3779e">12109653042</recipient>
+                                <recipient client_recip_id="fab3ee04-1e67-43fb-8b76-94cd7f895ea0" a2w_recip_id="71337993-cc12-4f68-9875-5e1f571aa519">12146692798</recipient>
+                                <recipient client_recip_id="a2256adb-12af-4e36-b0fd-ed2f6d5db11e" a2w_recip_id="98f8cb6e-184d-4415-8a5a-c459d676c063">12145328189</recipient>
+                                <recipient client_recip_id="514f0094-0713-465d-b016-c8b6f4214a90" a2w_recip_id="2e39560a-ade3-45e2-a90f-4a178560c763">12144184575</recipient>
+                                <recipient client_recip_id="e0678eee-9580-43c7-8ab4-24dea4fedd02" a2w_recip_id="976e313a-de1c-4da7-81cd-36384a6eff27">12145335443</recipient>
+                                <recipient client_recip_id="09543d03-08fd-464a-9ef9-b0a6dc9d3d0f" a2w_recip_id="803b8a52-5ced-4b31-ada2-32b7738e37c3">12144482599</recipient>
+                                <recipient client_recip_id="945351de-937c-436a-9848-67e1ac652ac8" a2w_recip_id="0442cc5e-2f93-45ab-a8be-2769a758076d">12144751065</recipient>
+                                <recipient client_recip_id="ca35a352-16a4-478f-b133-d43d08d4e8d9" a2w_recip_id="8e285803-ee7b-4f85-8a04-68ca89abe6bd">12139483068</recipient>
+                                <recipient client_recip_id="8cfca07c-9d16-47f2-aaef-51bb88068bf5" a2w_recip_id="7378df33-9962-419b-be0f-0f62484d08aa">12108314655</recipient>
+                                <recipient client_recip_id="b6e307de-41a5-4b89-841b-39d506e30aec" a2w_recip_id="ff5bc272-ce84-47f5-8135-12f0b6264cd6">12108377935</recipient>
+                                <recipient client_recip_id="5176d3ec-023d-476b-a035-3f79e49d5f82" a2w_recip_id="e50b18f6-1c94-46b0-a60c-fb5e229e2d81">12142322373</recipient>
+                                <recipient client_recip_id="8d1c251e-2abb-4423-b1fe-1e6698848478" a2w_recip_id="7cf9254c-79d0-4835-a837-12c6cabc590a">12145460470</recipient>
+                                <recipient client_recip_id="38043fc2-3d9e-4b64-8d52-a5ca2f1ed5d1" a2w_recip_id="3d5ad779-24aa-498c-8e00-05804ae72c21">12146630908</recipient>
+                                <recipient client_recip_id="516c0f59-ff9a-4427-b5b2-87ec5d6bce9e" a2w_recip_id="feb27c00-6d41-46a0-8063-90d984f4b718">12145852301</recipient>
+                                <recipient client_recip_id="cabf5bf8-a84f-4839-bd22-31c7963321b7" a2w_recip_id="b8642fe6-1bed-4e33-9407-aa40762ef65f">12107876404</recipient>
+                                <recipient client_recip_id="8693abb7-97ee-46c2-b9eb-e2442087b2e5" a2w_recip_id="dd047469-9369-4430-b2c7-7265470ed5c4">12145050557</recipient>
+                                <recipient client_recip_id="43fbebe5-ac0e-4584-bfaa-c859024b56d4" a2w_recip_id="f44e6da3-4a55-4d15-a568-edea7c0a328a">12142841487</recipient>
+                                <recipient client_recip_id="c3c8b0e4-4f5d-4563-bed5-fc516f852131" a2w_recip_id="73657cdd-063f-4172-8706-8df1f8399f8e">12108424416</recipient>
+                                <recipient client_recip_id="20e128e0-3295-4f62-99db-9d5030c0e9c3" a2w_recip_id="01e4e343-9fa2-4c66-a848-50f10334e06f">12107970081</recipient>
+                                <recipient client_recip_id="dc3e3d24-44cd-43c7-beba-89f8618095e4" a2w_recip_id="09436730-0d9d-4f36-98e1-47ffb3125ffe">12145426395</recipient>
+                                <recipient client_recip_id="427558a5-0a2e-4091-a028-3c853a8fb342" a2w_recip_id="50a2e718-6867-460e-8dd4-5da7714ba87e">12107883886</recipient>
+                                <recipient client_recip_id="de9025b7-2f34-4c46-9dc8-f0f4db62a5ae" a2w_recip_id="31d9d882-44ef-421b-963c-284769948fb3">12108497798</recipient>
+                                <recipient client_recip_id="42dbb1b8-515c-4d3c-bf83-8fa7281f3d21" a2w_recip_id="ee4363e1-f529-47bf-8ff7-6b5a8665e6f0">12143171168</recipient>
+                                <recipient client_recip_id="9a579ee6-c168-4ac4-99c6-c6bb03247f1a" a2w_recip_id="429b5957-0172-44ce-a802-63358a4c3229">12146090248</recipient>
+                                <recipient client_recip_id="4c601e52-ab32-4c1b-a357-94333642a909" a2w_recip_id="851b920f-5d4f-49bc-becb-af639b3fa3a0">12145570969</recipient>
+                                <recipient client_recip_id="48b3d84f-ea8a-4c67-a921-50ac8ca27589" a2w_recip_id="441d68f3-74b4-4a25-844c-e63173e59ac5">12134485359</recipient>
+                                <recipient client_recip_id="2e293c5d-ce05-4e0a-aa00-935b22d6a866" a2w_recip_id="788cd45a-f7fc-4bfa-a966-27e782641548">12145330487</recipient>
+                                <recipient client_recip_id="22c4160a-7226-42d6-b67a-6c8ba76ca2c4" a2w_recip_id="3e62f4b5-b9d0-4cf8-9946-b16de945dace">12144034926</recipient>
+                                <recipient client_recip_id="9c563e83-23bb-47ba-9f83-2bf337cdf5c6" a2w_recip_id="e5991728-4b84-4117-9cb8-27f274d9d9e4">12108381065</recipient>
+                                <recipient client_recip_id="11e610c2-dcb8-4f7b-aa92-cda80e94b472" a2w_recip_id="a0c85e5a-5f4d-4d6c-a5cd-fd376d995194">12132967177</recipient>
+                                <recipient client_recip_id="2c000050-ea68-4501-9e9f-17efa324932f" a2w_recip_id="bc8dec05-f306-40f8-b016-cd79b45d91db">12109122338</recipient>
+                                <recipient client_recip_id="e7a0ac23-f35c-4f94-8b60-a442e93ffd46" a2w_recip_id="e937b628-3799-401b-88f5-34bdc38cc3b8">12143851633</recipient>
+                                <recipient client_recip_id="af5699b4-e8f2-42ac-9653-2345f786d4f3" a2w_recip_id="63ef667d-59a8-4d72-84b6-a3392bb55a9f">12109950939</recipient>
+                                <recipient client_recip_id="cf41db4b-56a9-4830-aaf8-a04e8c5bd62b" a2w_recip_id="eb35bbdf-8f62-4fce-aea6-22d4f550a265">12144070107</recipient>
+                                <recipient client_recip_id="8e96d021-850c-4d5b-a43c-288da89fab6a" a2w_recip_id="ce41fb3e-1493-4c21-b9a2-68dacd6d31ac">12145646862</recipient>
+                                <recipient client_recip_id="d286a30e-2787-45a8-85f2-fde19c8da81a" a2w_recip_id="400a258a-191a-4ee1-a85d-36d020bc507e">12108606641</recipient>
+                                <recipient client_recip_id="5d78978e-3f25-4405-8773-db5136faaeb1" a2w_recip_id="131813b5-9233-4781-87b6-b78f005e2a62">12144604847</recipient>
+                                <recipient client_recip_id="feeba7b8-6e44-4e21-99ec-9a0bb70e3eaf" a2w_recip_id="51d9d75f-cc74-49d3-ad96-1d63c62a97c4">12145499693</recipient>
+                                <recipient client_recip_id="447e1192-e58d-4bcb-a997-1b8d7070519f" a2w_recip_id="b3e191b5-4fa0-4b1e-82fd-c3f9cfda8102">12146320557</recipient>
+                                <recipient client_recip_id="2ab83909-93bc-4093-a8e5-75d79b119a10" a2w_recip_id="b8a74bcc-e2be-46ef-ab09-43d85219f7fa">12108577283</recipient>
+                                <recipient client_recip_id="48932fea-7b11-4bf1-a43b-11924bbcb1da" a2w_recip_id="df8368e1-2c20-4f87-8a86-da3b18f6088a">12144482422</recipient>
+                                <recipient client_recip_id="0082ca94-2fb4-4ef5-b590-d7a240c80b07" a2w_recip_id="e486f9de-02c2-4881-a145-4d0f36b6f4ad">12135506470</recipient>
+                                <recipient client_recip_id="14391f09-4111-4781-b6e6-17e83bd077ff" a2w_recip_id="d2cb3e90-6ff3-485e-b477-a480caa769f7">12134478023</recipient>
+                                <recipient client_recip_id="91c2269c-643b-4c9f-92db-3df6c1d19d28" a2w_recip_id="45b1872c-d3fd-40ec-b396-134a67ed08fd">12108659538</recipient>
+                                <recipient client_recip_id="8ea7d1f5-eb53-417a-be9c-f860a9f74934" a2w_recip_id="2309ec6a-5441-4581-8aae-902f5c1f5ff6">12145078383</recipient>
+                                <recipient client_recip_id="89a01c15-b49b-4205-b90d-a6ba654f17f5" a2w_recip_id="d5c61d72-cdf9-4dfe-b2f5-64d4a6a6b4ef">12134003231</recipient>
+                                <recipient client_recip_id="22c55bfd-ec53-470d-9a94-3cf53f7049f7" a2w_recip_id="c7ef1190-ef76-41f8-bf40-cf540571f075">12145298703</recipient>
+                                <recipient client_recip_id="8df9080d-c5e7-4e47-9a85-ddc71fe89ac2" a2w_recip_id="b9ac08de-7444-4f51-9013-ffd533db8479">12108335774</recipient>
+                                <recipient client_recip_id="aa381d15-3461-4631-abf5-69f32b444c99" a2w_recip_id="5cdc2c48-fdac-4c8a-abd2-d2f0870d32f5">12143851883</recipient>
+                                <recipient client_recip_id="0d1cc455-7d46-4734-9f7c-88a567666dc4" a2w_recip_id="59a63c62-49eb-4fad-8131-f14bd3fa14d9">12108365081</recipient>
+                                <recipient client_recip_id="182d67c0-5e4e-41a1-b148-8d29393d697b" a2w_recip_id="ae96d29c-9adb-4e31-9918-2fe52e17183f">12146418033</recipient>
+                                <recipient client_recip_id="fff808a0-8110-4114-98ad-8d439b03a0bf" a2w_recip_id="bcf7e797-0c74-45ff-b3c5-151dda47696b">12146052622</recipient>
+                                <recipient client_recip_id="3243568b-8c3a-4e30-996d-519cf3c1bf0b" a2w_recip_id="370cccfa-0c83-4754-bcfa-677db9180a1d">12137095634</recipient>
+                                <recipient client_recip_id="5df1f76d-a458-45d1-aaa9-8857579be266" a2w_recip_id="1c905a01-cb01-4d65-abd4-238a9b8d0122">12108570572</recipient>
+                                <recipient client_recip_id="9cf4b798-a29a-49b5-90c1-764f76b75ead" a2w_recip_id="b715e7eb-ab68-4520-80cc-e894ab899163">12134486797</recipient>
+
+                                <recipient client_recip_id="d499cbc5-db65-498b-aad4-3bdf4556e5e8" a2w_recip_id="9dca5c09-02c0-45f0-a793-21b7b20ba0ce">12143367924</recipient>
+                                <recipient client_recip_id="e61797ac-6c12-45ea-b47b-ccbfe2ff240a" a2w_recip_id="727b27c8-080e-460a-82a9-536d43bde787">12146643058</recipient>
+                                <recipient client_recip_id="a0cb6e78-958f-4c22-a009-84f43085b313" a2w_recip_id="5e6a2d23-197b-4032-a94b-8cf30a634753">12145872840</recipient>
+                                <recipient client_recip_id="3e6228dc-c74c-468a-9a12-e762783ca6bc" a2w_recip_id="add1a561-fec3-48ba-be7d-ea4f7114e9a2">12135871072</recipient>
+                                <recipient client_recip_id="88804a38-7f94-44d1-aac6-87bfb6ff8692" a2w_recip_id="84ec6a4e-189d-4e31-a848-decb9b832061">12143259565</recipient>
+                                <recipient client_recip_id="c17d98d7-6837-49d4-b798-e824f4d6cd78" a2w_recip_id="99f6bc1e-e314-447e-8a03-f4f303463097">12108635772</recipient>
+                                <recipient client_recip_id="ef40398a-cc06-4c2d-9df1-52beb0152be7" a2w_recip_id="8d325ff2-c26a-4b2a-9418-05a6b3c5cd6c">12144542620</recipient>
+                                <recipient client_recip_id="9e148d3b-ff32-42cf-95ab-5bf0a6fd35d3" a2w_recip_id="2a311e25-1896-47f1-8451-551ff3ba9191">12144775385</recipient>
+                                <recipient client_recip_id="138a712e-b4d5-495d-a2f7-f3d6979afdea" a2w_recip_id="877cac4f-66f3-45c7-99f2-dcf4838a0e1f">12108070560</recipient>
+                                <recipient client_recip_id="e4620e6c-734e-453b-8e91-bd1e31c0af03" a2w_recip_id="9f05b4b6-035e-4666-a2eb-768bde22c7b7">12108332415</recipient>
+                                <recipient client_recip_id="7b6faa1e-7284-4994-b4e6-e9232ef02043" a2w_recip_id="09ba44a4-e37f-4f61-84b4-b741a1cfbf9a">12145490896</recipient>
+                                <recipient client_recip_id="e40ee119-03e1-47df-bc8a-a5b3576132dc" a2w_recip_id="57e9486e-bddb-4015-8705-5b17a79cb930">12145980537</recipient>
+                                <recipient client_recip_id="a78008d1-8578-43db-8bf2-97f987b7ade2" a2w_recip_id="29239f4a-cf48-4220-9e74-d29f5db8e55f">12109372726</recipient>
+                                <recipient client_recip_id="5a1801ff-9080-4676-883a-3d4b8e410d18" a2w_recip_id="72bcb10a-e7ea-4d00-bac8-c67adb146e83">12108726449</recipient>
+                                <recipient client_recip_id="e6ec59ab-53d3-4adb-af52-20eb07de2549" a2w_recip_id="3d808acb-ecef-48d3-90c9-ed2078fb14ff">12108358986</recipient>
+                                <recipient client_recip_id="7357df61-2a6a-48bf-86ca-7eb59d8b56b1" a2w_recip_id="12bca5b2-c583-478e-9fcb-cae827dbe7ad">12145786910</recipient>
+                                <recipient client_recip_id="278fc6a4-fe8e-4b6f-a184-2a148ae40d47" a2w_recip_id="42193240-143e-473c-9e0a-9eac96429670">12108785176</recipient>
+                                <recipient client_recip_id="c01ecf9e-cdd7-4227-98c6-1f8f49d71b8f" a2w_recip_id="04540644-4a67-4c1d-8991-2c76bf3624f3">12146629427</recipient>
+                                <recipient client_recip_id="6f8e94ac-f7b5-424a-a212-2f161546d31f" a2w_recip_id="e1f12b25-9047-40e0-9aa8-b9c9fd6a79d8">12143926465</recipient>
+                                <recipient client_recip_id="c29d2f75-2e2c-43d2-ae58-8b9f63a91fa6" a2w_recip_id="d96df6a6-d46e-4592-beca-ca6080ebe4e3">12145176716</recipient>
+                                <recipient client_recip_id="1f37e31d-2365-4d94-b4d1-fab8f04345bd" a2w_recip_id="324b6399-bfe6-42ad-9bec-d563967981f6">12144029547</recipient>
+                                <recipient client_recip_id="77b6b52d-3d7f-42c6-9858-6017d33b28b9" a2w_recip_id="88355e00-d345-4aa0-8f86-98d714db65f1">12107889888</recipient>
+                                <recipient client_recip_id="4786ca8e-81af-4b94-b32c-8d438b1195e2" a2w_recip_id="3602b508-0726-4bbd-af32-d93003661fc5">12138800213</recipient>
+                                <recipient client_recip_id="8e6ef3c8-7856-4c99-a05a-e31e00cdeab6" a2w_recip_id="9f9554cf-241f-45f6-8b4a-ff26d9893604">12145524348</recipient>
+                                <recipient client_recip_id="b3772e70-95ae-4753-8fbf-e6bcccd5ecb4" a2w_recip_id="dd082db7-be75-4037-96db-da092e7b7cbc">12145624589</recipient>
+                                <recipient client_recip_id="dd921f13-018e-4968-b9e4-b81e0619b867" a2w_recip_id="876b0dde-e59e-4d82-bf9d-ac7dbfe691b6">12108345891</recipient>
+                                <recipient client_recip_id="1af45c9f-8ce4-420f-aa9d-872674759c58" a2w_recip_id="8de373d6-346e-4997-b51a-65bafe0576a3">12145422695</recipient>
+                                <recipient client_recip_id="a83d9f1c-66ab-425c-ab31-27be1e23ab33" a2w_recip_id="d298039b-7f3b-45e9-8259-468c9ca3c31a">12145490464</recipient>
+                                <recipient client_recip_id="6c829385-3088-4c85-8ff4-e7735bbd9478" a2w_recip_id="518a2ead-8f91-4952-bdf1-b36e701beb62">12144766542</recipient>
+                                <recipient client_recip_id="b52ade87-2ebf-4289-b984-1d6ea7071e80" a2w_recip_id="9f3b256f-c5b3-4c9e-b9d6-259abe5fb657">12143155436</recipient>
+                                <recipient client_recip_id="ce66e9a8-79a2-42a2-b259-5815f260f2d7" a2w_recip_id="60cb8cf2-927a-4873-a510-6f046633c81f">12107889847</recipient>
+                                <recipient client_recip_id="abacfe89-404f-413a-ad4c-052945239fd8" a2w_recip_id="44afe01c-9f79-417f-8a42-b21fa165b958">12144929539</recipient>
+                                <recipient client_recip_id="9bb0a59b-215d-40d7-b6d9-6026dc6f0565" a2w_recip_id="38f89de7-c42c-46d1-8ee0-4fee55849f80">12145370433</recipient>
+                                <recipient client_recip_id="e0deaa7d-3d09-43c0-8b57-982dcf6b243a" a2w_recip_id="246f9253-49a0-4a00-a3c3-73bd6834f9c4">12144781433</recipient>
+                                <recipient client_recip_id="dddd0a4d-b34c-4b0a-9e32-fe77bf6928ad" a2w_recip_id="0aa8aa97-7509-4325-bee7-f6f6c810905e">12108430333</recipient>
+                                <recipient client_recip_id="528f2b7d-5473-49e8-b7ae-5a24579787b9" a2w_recip_id="034917f0-159b-423b-9393-0087ef915401">12144354492</recipient>
+                                <recipient client_recip_id="00950880-dd45-4171-b112-80f7bf2fd5f2" a2w_recip_id="30eeaaeb-5692-43b6-8eef-8dcfd1dfaff9">12108651597</recipient>
+                                <recipient client_recip_id="62b510a7-81e5-42c9-ae93-727a70c84239" a2w_recip_id="fd23f1de-7094-4aa4-9916-56fd3f6ec108">12108462512</recipient>
+                                <recipient client_recip_id="f04c799b-c32c-4ab5-91ed-91d4e6b33240" a2w_recip_id="ba774213-ad73-469b-b250-f1e45e9bb9c9">12108489869</recipient>
+                                <recipient client_recip_id="d57683f1-0df7-4e2e-b63f-7e3e9b9c46e8" a2w_recip_id="d78a9189-0f8f-49c2-8076-6effde25f241">12108592894</recipient>
+                                <recipient client_recip_id="ae259a72-57f3-4e09-9d34-af686fd7dc42" a2w_recip_id="9110c767-368f-49ad-8f89-4f53b25780ab">12145073478</recipient>
+                                <recipient client_recip_id="868a3ceb-5a8b-4043-800e-830108ae1ae0" a2w_recip_id="136cda30-e2ca-4f37-b6f7-973c78fe6de0">12144128070</recipient>
+                                <recipient client_recip_id="8cb010f2-8ba1-4407-8170-d7334ddec2cf" a2w_recip_id="1395381d-2bdf-4b88-bb54-2ff25c59963c">12145922666</recipient>
+                                <recipient client_recip_id="78d1493f-f3cd-4962-9b5e-9fc8198b6124" a2w_recip_id="ea23c96c-1c55-4475-bc9f-2b944af8fee6">12143548032</recipient>
+                                <recipient client_recip_id="e255a3b4-eac0-44ba-8292-ec02308cac34" a2w_recip_id="59252a8d-e469-4e00-a5af-3ac30b43d99c">12108834116</recipient>
+                                <recipient client_recip_id="69987f48-3907-46d8-9301-db763254d1a0" a2w_recip_id="d8badf3e-6d07-4510-b5a6-9d6bc8eb25ab">12108186588</recipient>
+                                <recipient client_recip_id="1553ca54-ca7f-49a1-b002-9a05f1cb26a5" a2w_recip_id="f3015889-29a4-4cdb-98f5-be3baf1fc423">12143848025</recipient>
+                                <recipient client_recip_id="a13bbf11-24e4-48c0-ad2d-a6d8192d8300" a2w_recip_id="e13c8302-d31a-4c86-8209-3acfe268c403">12108612206</recipient>
+                                <recipient client_recip_id="9a54d3ad-4957-4c22-8bd0-57326e9cd469" a2w_recip_id="0b04da3a-9d39-46a3-8782-6a781f5d5ad5">12145277102</recipient>
+                                <recipient client_recip_id="998c84a3-543a-4c9f-a6e0-2f0b59a84916" a2w_recip_id="a47fb70b-97fa-498c-a3d6-e025aafa55ad">12145160502</recipient>
+                                <recipient client_recip_id="c4e5eeaa-f713-4df5-90f3-e0fbe009396f" a2w_recip_id="b408a302-4f50-4fe7-9ed9-e07d4a85b6f7">12144185496</recipient>
+                                <recipient client_recip_id="f8d9aac3-4ec5-47ba-8fe9-d8e255320851" a2w_recip_id="da35dc83-b564-47af-b038-67009185d2fb">12107817055</recipient>
+                                <recipient client_recip_id="be054f1d-14d6-4e44-90f1-81b812d3cc1d" a2w_recip_id="3a8960eb-b270-45fe-8595-3dc66d38a3af">12134482973</recipient>
+                                <recipient client_recip_id="cefc7d74-3bf8-48e3-8344-97b5e1b68079" a2w_recip_id="71435eb2-513f-4c21-b570-68cf529ef440">12108615180</recipient>
+                                <recipient client_recip_id="0d661edc-0ccc-4ec2-9e40-2ca304906f78" a2w_recip_id="87986fb0-dd9a-4947-a6db-cc30de71341f">12145437395</recipient>
+                                <recipient client_recip_id="4fa450c3-7dae-4d11-8df7-4469326273f6" a2w_recip_id="61a6d45d-9a0f-4902-9574-145c36491cb2">12142458211</recipient>
+                                <recipient client_recip_id="a620bb94-3240-4544-9c9d-559ab49b524b" a2w_recip_id="8c4de3a0-c5d5-4647-8948-f759e3f4a77a">12146763708</recipient>
+                                <recipient client_recip_id="f30d0c60-2e00-461a-b07b-881e7af0a09f" a2w_recip_id="82bf0413-8db9-4d90-a5b0-e97b9df1a849">12108570437</recipient>
+                                <recipient client_recip_id="8ec74a2e-c8a0-4b41-9d86-fdf7fa4626de" a2w_recip_id="2af60382-0dae-4e6a-bc7c-d96a143d7907">12139848518</recipient>
+                                <recipient client_recip_id="79429b4c-7f52-4286-97e8-42c214846dca" a2w_recip_id="b9404227-b586-44ec-8086-73dbd73c6478">12138001861</recipient>
+                                <recipient client_recip_id="27e43da2-f111-4dad-b844-058d6280759a" a2w_recip_id="d13c965d-23a3-4f9c-9049-a99ab3f02c8e">12144183515</recipient>
+                                <recipient client_recip_id="0c887ef8-0f1b-49a7-8ca4-b39eb8edc056" a2w_recip_id="a14c5223-23b5-4f29-aff1-b058028b032a">12146645747</recipient>
+                                <recipient client_recip_id="13883168-ae6d-47e6-9c77-675567918ad3" a2w_recip_id="cbc64ec1-e2f4-4096-9e57-d9814ef760f5">12142885513</recipient>
+                                <recipient client_recip_id="cae2d4b2-18cf-4aa5-8110-c1d3f4db5b8c" a2w_recip_id="8367c537-d2ac-4669-8d89-0e5af7751455">12144608056</recipient>
+                                <recipient client_recip_id="114fc292-2382-44d0-8bf9-260be8048a18" a2w_recip_id="f3767c07-1df0-49bd-815a-9e8eabf66893">12108467301</recipient>
+                                <recipient client_recip_id="11bbf03e-5a10-4ded-95c5-912529890fc2" a2w_recip_id="d3b3ac58-6b37-4436-9af5-3aa85beecda2">12144539015</recipient>
+                                <recipient client_recip_id="0d7d7ab9-3ef4-47ad-86af-04cda448b832" a2w_recip_id="51c350c6-9eec-43c5-bf65-363d78e7ce77">12107712210</recipient>
+                                <recipient client_recip_id="86bd95e2-0bd2-4db3-a8ce-2785314d91fa" a2w_recip_id="ff619a0b-e939-47ce-8937-7b5f4deec630">12146040358</recipient>
+                                <recipient client_recip_id="478e01a5-571a-49bd-91ef-9360058fb365" a2w_recip_id="caf89f14-b3a6-4831-bd5e-3beecbffd77a">12134464304</recipient>
+                                <recipient client_recip_id="869ad7fb-e90f-4e76-8d71-1cef1a4c50ac" a2w_recip_id="766fc81c-1de1-4f81-8176-83087d193499">12132006404</recipient>
+                                <recipient client_recip_id="b278fcdb-4e4a-48d8-90bb-618f8becaeda" a2w_recip_id="aa4eaa8c-b7e4-41af-a0fd-bd77da68c33e">12108012652</recipient>
+                        </recipient_list>
+                        <broadcast_msg_id>140501</broadcast_msg_id>
+                </send_message>
+        </request>
+</router-api>

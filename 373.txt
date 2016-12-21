@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<router-api version="2.0">
+  <code>100</code>
+  <info>Success</info>
+  <response_list>
+    <requested>
+      <response carrier="air2web">
+        <timestamp>12/20/2016 17:36:24  EST</timestamp>
+        <code>100</code>
+        <info>Success</info>
+        <list>
+          <id recipient="12145586988">148761917760</id>
+          <id recipient="12107930899">148761917761</id>
+          <id recipient="12145646862">148761917762</id>
+          <id recipient="12143171168">148761917763</id>
+          <id recipient="12143926465">148761917764</id>
+          <id recipient="12127291708">148761917765</id>
+          <id recipient="12108612206">148761917766</id>
+          <id recipient="12146629427">148761917767</id>
+          <id recipient="12132006404">148761917768</id>
+          <id recipient="12144766542">148761917769</id>
+          <id recipient="12108720783">148761917770</id>
+          <id recipient="12146763708">148761917771</id>
+          <id recipient="12142841487">148761917772</id>
+          <id recipient="12146749648">148761917773</id>
+          <id recipient="12142269444">148761917774</id>
+          <id recipient="12145872840">148761917775</id>
+          <id recipient="12145330487">148761917776</id>
+          <id recipient="12109122338">148761917777</id>
+          <id recipient="12143259565">148761917778</id>
+          <id recipient="12108358986">148761917779</id>
+          <id recipient="12132810064">148761917780</id>
+          <id recipient="12134478023">148761917781</id>
+          <id recipient="12142885513">148761917782</id>
+          <id recipient="12144577715">148761917783</id>
+          <id recipient="12144604847">148761917784</id>
+          <id recipient="12134482973">148761917785</id>
+          <id recipient="12145073478">148761917786</id>
+          <id recipient="12145078383">148761917787</id>
+          <id recipient="12145460946">148761917788</id>
+          <id recipient="12142894115">148761917789</id>
+          <id recipient="12107876404">148761917790</id>
+          <id recipient="12146418033">148761917791</id>
+          <id recipient="12108537124">148761917792</id>
+          <id recipient="12142740974">1487619

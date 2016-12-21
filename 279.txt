@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<router-api version="2.0">
+  <code>100</code>
+  <info>Success</info>
+  <response_list>
+    <requested>
+      <response carrier="air2web">
+        <timestamp>12/20/2016 17:36:26  EST</timestamp>
+        <code>100</code>
+        <info>Success</info>
+        <list>
+          <id recipient="12145922666">148764350908</id>
+          <id recipient="12145328189">148764350909</id>
+          <id recipient="12145370433">148764350910</id>
+          <id recipient="12145022817">148764350911</id>
+          <id recipient="12145524348">148764350912</id>
+          <id recipient="12108186588">148764350913</id>
+          <id recipient="12108592894">148764350914</id>
+          <id recipient="12108332203">148764350915</id>
+          <id recipient="12144034926">148764350916</id>
+          <id recipient="12108012652">148764350917</id>
+          <id recipient="12145374570">148764350918</id>
+          <id recipient="12134404851">1487643
